@@ -1,0 +1,45 @@
+body{
+    margin: 25px;
+    background-color:honeydew;
+}
+h2{
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:cornflowerblue;
+}
+div{
+    background-color:khaki;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+}
+button{
+    background-color:blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+label{
+    font-size:20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#myCard {
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 250px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.highlight {
+    background-color: lightblue;
+    border-color: blue;
+}
+
+#myCard:focus-visible {
+    outline: 3px solid blue;
+    outline-offset: 4px;
+}
